@@ -2,38 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Welcome to My Midterm Server</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f4f4f9;
-            color: #333;
+            background: linear-gradient(45deg, #f06, yellow, lightblue);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
         }
-        h1 {
-            color: #0066cc;
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
         }
-        form {
-            margin-top: 20px;
-        }
-        input {
-            margin: 5px;
-            padding: 8px;
+        p {
+            font-size: 20px;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>Enter your student number and name below:</p>
-    <form action="#">
-        <input type="text" name="student_number" placeholder="Student Number" required>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
-    <footer>
-        <p>© 2024 Your Name</p>
-    </footer>
+    <div class="container">
+        <h1>Welcome to My Midterm Server!</h1>
+        <p><strong>Student Number:</strong> 100955238</p>
+        <p><strong>Student Name:</strong> Sudip Neupane</p>
+    </div>
 </body>
 </html>
